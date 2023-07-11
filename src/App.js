@@ -1,9 +1,22 @@
 import "./App.css";
+import Footer from "./Footer/Footer";
+import Header from "./components/Header";
+import Hero from "./components/Hero/Hero";
+import Products from "./components/Products/Products";
+import Slider from "./components/Slider/Slider";
+import Testimonials from "./components/Testimonials/Testimonials";
+import Virtual from "./components/Virtual/Virtual";
 
 function App() {
   return (
     <div className="App">
-      <span>Subscribe Zainkeepscode</span>
+      <Header/>
+      <Hero/>
+      <Slider/>
+      <Virtual/>
+      <Products/>
+      <Testimonials/>
+      <Footer/>
     </div>
   );
 }
